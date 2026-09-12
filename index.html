@@ -1,124 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+
     <meta charset="UTF-8">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <meta name="description"
-        content="David Mumeme - Frontend Developer, Manual Tester and Automation Tester">
+        content="David Mumeme - Frontend Developer and QA Tester">
 
-    <title>David Mumeme | Frontend Developer</title>
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-    <link
-        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
-        rel="stylesheet">
+    <title>David Mumeme | Frontend Developer & QA Tester</title>
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 
     <link rel="stylesheet" href="style.css">
-</head>
 
+</head>
 <body>
 
-    <!-- ====== HEADER ====== -->
+    <header>
 
-    <header class="header">
+        <nav class="navbar">
 
-        <a href="#home" class="logo">
-            David<span>.</span>
-        </a>
+            <a href="#home" class="logo">
+                David.
+            </a>
+            <button id="menuBtn" class="menu-btn">
 
-        <nav class="nav" id="navLinks">
-            <a href="#home">Home</a>
-            <a href="#about">About</a>
-            <a href="#skills">Skills</a>
-            <a href="#projects">Projects</a>
-            <a href="#contact">Contact</a>
+                <i class="fa-solid fa-bars"></i>
+
+            </button>
+
+
+            <!-- Navigation -->
+
+            <ul id="navLinks" class="nav-links">
+
+                <li>
+                    <a href="#home">Home</a>
+                </li>
+
+                <li>
+                    <a href="#about">About</a>
+                </li>
+
+                <li>
+                    <a href="#skills">Skills</a>
+                </li>
+
+                <li>
+                    <a href="#projects">Projects</a>
+                </li>
+
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+
+            </ul>
+
         </nav>
-
-        <a href="#contact" class="header-btn">
-            Let's Work
-        </a>
-
-        <button class="menu-btn" id="menuBtn">
-            <span></span>
-            <span></span>
-            <span></span>
-        </button>
 
     </header>
 
-    <main>
 
-        <!-- ================= HERO ================= -->
 
-        <section class="hero section" id="home">
+    <!-- =========================
+         HERO SECTION
+    ========================== -->
+
+    <main id="home">
+
+        <section class="hero">
+
+
+            <!-- Profile Image -->
+
+            <div class="hero-image">
+
+                <img src="my_picture/portofolio_full.png"
+                    alt="David Mumeme - Frontend Developer">
+
+            </div>
+
+
+            <!-- Introduction -->
+
             <div class="hero-content">
-                <p class="small-title">
-                    FRONTEND DEVELOPER · QA TESTER
-                </p>
 
                 <h1>
-                    Building clean interfaces.
-                    <span>Testing with confidence.</span>
+                    David <span>Mumeme</span>
                 </h1>
 
-                <p class="hero-description">
-                    I'm David Mumeme, a Frontend Developer and QA Tester
-                    focused on creating responsive websites, testing web
-                    applications and delivering reliable digital solutions.
+                <h2>
+                    Frontend Developer & QA Tester
+                </h2>
+
+                <p>
+                    I build modern, responsive and user-friendly
+                    web interfaces while ensuring software quality
+                    through manual and automated testing.
                 </p>
+
+
+                <!-- Buttons -->
 
                 <div class="hero-buttons">
 
-                    <a href="#projects" class="btn primary">
-                        View My Work
+                    <a href="#projects" class="btn">
+                        View Projects
                     </a>
 
-                    <a href="#contact" class="btn secondary">
-                        Hire Me
+                    <a href="#contact" class="btn btn-outline">
+                        Contact Me
                     </a>
-
-                </div>
-
-                <div class="quick-skills">
-
-                    <div>
-                        <strong>HTML5</strong>
-                        <span>Structure</span>
-                    </div>
-
-                    <div>
-                        <strong>CSS3</strong>
-                        <span>Responsive UI</span>
-                    </div>
-
-                    <div>
-                        <strong>JavaScript</strong>
-                        <span>Interaction</span>
-                    </div>
-
-                    <div>
-                        <strong>QA</strong>
-                        <span>Quality</span>
-                    </div>
-
-                </div>
-
-            </div>
-            <div class="hero-image">
-
-                <div class="image-box">
-
-                    <img
-                        src="my_picture/david_potille.png"
-                        alt="David Mumeme - Frontend Developer">
-
-                    <div class="available">
-                        <span></span>
-                        Available for freelance work
-                    </div>
 
                 </div>
 
@@ -127,386 +122,252 @@
         </section>
 
 
-        <!-- ================= ABOUT ================= -->
 
-        <section class="about section" id="about">
+        <!-- =========================
+             COMPACT CONTENT
+        ========================== -->
 
-            <div class="section-title">
+        <div class="main-content">
 
-                <p class="small-title">
-                    ABOUT ME
-                </p>
+
+            <!-- =========================
+                 ABOUT
+            ========================== -->
+
+            <section id="about" class="card about-card">
 
                 <h2>
-                    Developer mindset.
-                    <br>
-                    Quality-first approach.
+                    <i class="fa-solid fa-user"></i>
+                    About Me
                 </h2>
-
-            </div>
-
-            <div class="about-content">
 
                 <p>
-                    I build modern and responsive websites using HTML,
-                    CSS and JavaScript. I also have experience in manual
-                    testing and automation testing, helping ensure that
-                    web applications work correctly and provide a good
-                    user experience.
+                    I am a Frontend Developer and QA Tester
+                    focused on creating clean, responsive and
+                    reliable digital experiences.
                 </p>
-                    <div class="about-grid">
 
-                 <div>
-                        <strong>01</strong>
-                        <span>
-                            Responsive<br>
-                            Web Design
-                        </span>
-                    </div>
+                <br>
 
-                    <div>
-                        <strong>02</strong>
-                        <span>
-                            Manual<br>
-                            Testing
-                        </span>
-                    </div>
-
-                    <div>
-                        <strong>03</strong>
-                        <span>
-                            Automation<br>
-                            Testing
-                        </span>
-                    </div>
-                    <div>
-                        <strong>04</strong>
-                        <span>
-                            Simple<br>
-                            Chatbots
-                        </span>
-                    </div>
-
-                </div>
-
-            </div>
-
-        </section>
-
-
-        <!--  SKILLS  -->
-
-        <section class="skills section" id="skills">
-
-            <div class="section-title">
-
-                <p class="small-title">
-                    MY EXPERTISE
+                <p>
+                    I work with HTML, CSS and JavaScript for
+                    frontend development and use manual testing
+                    and automation testing to improve software quality.
                 </p>
+
+            </section>
+
+
+
+            <!-- =========================
+                 SKILLS
+            ========================== -->
+
+            <section id="skills" class="card skills-card">
 
                 <h2>
-                    Skills & Tools
+                    <i class="fa-solid fa-code"></i>
+                    Skills
                 </h2>
 
-            </div>
 
+                <div class="skills-list">
 
-            <div class="skills-grid">
-
-                <article class="skill-card">
-
-                    <span class="number">
-                        01
+                    <span class="skill">
+                        HTML5
                     </span>
 
-                    <h3>
-                        Frontend Development
-                    </h3>
-
-                    <p>
-                        Creating responsive and modern interfaces
-                        with clean and semantic code.
-                    </p>
-
-                    <div class="tags">
-                        <span>HTML5</span>
-                        <span>CSS3</span>
-                        <span>JavaScript</span>
-                        <span>Responsive Design</span>
-                    </div>
-
-                </article>
-
-
-                <article class="skill-card">
-
-                    <span class="number">
-                        02
+                    <span class="skill">
+                        CSS3
                     </span>
 
-                    <h3>
+                    <span class="skill">
+                        JavaScript
+                    </span>
+
+                    <span class="skill">
+                        Responsive Design
+                    </span>
+
+                    <span class="skill">
                         Manual Testing
-                    </h3>
-
-                    <p>
-                        Testing web applications to identify bugs,
-                        usability problems and functional issues.
-                    </p>
-
-                    <div class="tags">
-                        <span>Test Cases</span>
-                        <span>UI Testing</span>
-                        <span>Bug Reports</span>
-                    </div>
-
-                </article>
-
-
-                <article class="skill-card">
-
-                    <span class="number">
-                        03
                     </span>
 
-                    <h3>
+                    <span class="skill">
                         Automation Testing
-                    </h3>
-
-                    <p>
-                        Creating automated end-to-end tests for
-                        important web application workflows.
-                    </p>
-                    <div class="tags">
-                        <span>Cypress</span>
-                        <span>E2E Testing</span>
-                        <span>Assertions</span>
-                    </div>
-
-                </article>
-
-
-                <article class="skill-card">
-
-                    <span class="number">
-                        04
                     </span>
+
+                    <span class="skill">
+                        Cypress
+                    </span>
+
+                    <span class="skill">
+                        E2E Testing
+                    </span>
+
+                    <span class="skill">
+                        Git
+                    </span>
+
+                    <span class="skill">
+                        GitHub
+                    </span>
+
+                    <span class="skill">
+                        Chatbots
+                    </span>
+
+                </div>
+
+            </section>
+
+
+
+            <!-- =========================
+                 PROJECTS
+            ========================== -->
+
+            <section id="projects"
+                class="card projects-card">
+
+                <h2>
+                    <i class="fa-solid fa-folder-open"></i>
+                    Projects
+                </h2>
+
+
+                <!-- Project 1 -->
+
+                <div class="project">
 
                     <h3>
-                        Digital Solutions
+                        Professional Portfolio
                     </h3>
 
                     <p>
-                        Building practical websites, simple chatbots
-                        and managing projects with Git and GitHub.
+                        Modern responsive portfolio built with
+                        HTML5, CSS3 and JavaScript.
                     </p>
 
-                    <div class="tags">
-                        <span>Git</span>
-                        <span>GitHub</span>
-                        <span>Chatbots</span>
-                    </div>
-
-                </article>
-
-            </div>
-
-        </section>
-
-
-        <!-- ================= PROJECTS ================= -->
-
-        <section class="projects section" id="projects">
-
-            <div class="projects-header">
-
-                <div>
-
-                    <p class="small-title">
-                        SELECTED WORK
-                    </p>
-
-                    <h2>
-                        Projects
-                    </h2>
-
-                </div>
-
-                <p>
-                    Practical frontend and testing projects
-                    focused on quality and usability.
-                </p>
-
-            </div>
-
-
-            <div class="project-list">
-
-                <article class="project">
-
-                    <div class="project-number">
-                        01
-                    </div>
-
-                    <div>
-
-                        <h3>
-                            Professional Portfolio
-                        </h3>
-
-                        <p>
-                            Responsive one-page portfolio designed
-                            to present my skills, services and projects.
-                        </p>
-
-                    </div>
-
-                    <span>
-                        HTML · CSS · JS
-                    </span>
-
-                </article>
-
-
-                <article class="project">
-
-                    <div class="project-number">
-                        02
-                    </div>
-
-                    <div>
-
-                        <h3>
-                            QA Automation Challenge
-                        </h3>
-
-                        <p>
-                            Automated end-to-end scenarios for
-                            registration, login and password recovery.
-                        </p>
-
-                    </div>
-
-                    <span>
-                        Cypress · E2E
-                    </span>
-
-                </article>
-
-
-                <article class="project">
-
-                    <div class="project-number">
-                        03
-                    </div>
-
-                    <div>
-
-                        <h3>
-                            Event & Landing Websites
-                        </h3>
-
-                        <p>
-                            Responsive websites with galleries,
-                            contact sections and mobile navigation.
-                        </p>
-
-                    </div>
-
-                    <span>
-                        HTML · CSS · JS
-                    </span>
-
-                </article>
-
-            </div>
-
-        </section>
-
-
-        <!-- ================= CONTACT ================= -->
-
-        <section class="contact section" id="contact">
-
-            <div class="contact-box">
-
-                <div>
-
-                    <p class="small-title">
-                        LET'S CONNECT
-                    </p>
-
-                    <h2>
-                        Have a project
-                        <br>
-                        in mind?
-                    </h2>
-
-                    <p class="contact-description">
-                        Let's build a clean website or improve
-                        the quality of your web application.
-                    </p>
-
-                </div>
-
-
-                <div class="contact-links">
-
-                    <!-- Remplace ton email ici -->
-
-                    <a href="mailto:your.email@example.com">
-                        <span>
-                            your.email@example.com
-                        </span>
-                        <strong>↗</strong>
-                    </a>
-
-
-                    <a
-                        href="https://github.com/David-max-tech"
-                        target="_blank"
-                    >
-                        <span>
-                            GitHub / David-max-tech
-                        </span>
-                        <strong>↗</strong>
-                    </a>
-
-
-                    <a
-                        href="https://www.upwork.com/"
-                        target="_blank"
-                    >
-                        <span>
-                            Upwork
-                        </span>
-                        <strong>↗</strong>
+                    <a href="#" class="project-link">
+                        View Project →
                     </a>
 
                 </div>
 
-            </div>
 
-        </section>
+                <!-- Project 2 -->
+
+                <div class="project">
+
+                    <h3>
+                        QA Automation Testing
+                    </h3>
+
+                    <p>
+                        End-to-end automated testing using
+                        Cypress, including login, registration
+                        and password recovery scenarios.
+                    </p>
+
+                    <a href="#" class="project-link">
+                        View Project →
+                    </a>
+
+                </div>
+
+
+                <!-- Project 3 -->
+
+                <div class="project">
+
+                    <h3>
+                        Event & Landing Websites
+                    </h3>
+
+                    <p>
+                        Responsive websites and landing pages
+                        designed for events and digital projects.
+                    </p>
+
+                    <a href="#" class="project-link">
+                        View Project →
+                    </a>
+
+                </div>
+
+
+            </section>
+
+        </div>
 
     </main>
 
 
-    <!-- ================= FOOTER ================= -->
+
+    <!-- =========================
+         CONTACT
+    ========================== -->
+
+    <section id="contact" class="contact-bar">
+
+        <span>
+            <i class="fa-solid fa-envelope"></i>
+
+            <a href="mailto:your.email@example.com">
+                davidmumeme@gmail.com
+            </a>
+        </span>
+
+
+        <span>
+            <i class="fa-brands fa-github"></i>
+
+            <a href="https://github.com/David-max-tech"
+                target="_blank">
+
+                GitHub
+
+            </a>
+        </span>
+
+
+        <span>
+            <i class="fa-solid fa-briefcase"></i>
+
+            <a href="https://www.upwork.com/"
+                target="_blank">
+
+                Upwork
+
+            </a>
+        </span>
+
+    </section>
+
+
+
+    <!-- =========================
+         FOOTER
+    ========================== -->
 
     <footer>
 
-        <span>
-            © 2026 David Mumeme
-        </span>
-
-        <span>
-            Frontend Development · QA Testing
-        </span>
+        <p>
+            © <span id="year"></span>
+            David Mumeme. All rights reserved.
+        </p>
 
     </footer>
 
 
+
+    <!-- =========================
+         JAVASCRIPT
+    ========================== -->
+
     <script src="script.js"></script>
 
 </body>
+
 </html>
